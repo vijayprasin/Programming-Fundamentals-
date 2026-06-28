@@ -1,0 +1,8 @@
+using System;   //Math, Array, String, Console.
+using System.Collections.Generic;   //List, Dictionary, HashSet, Queue, Stack, PriorityQueue, etc.
+using System.Linq;   //Min(), Max(), Sum(), OrderBy(), GroupBy(), etc.
+using System.Text;   //StringBuilder.
+
+
+The System.Collections.Generic namespace contains heavily used types. It contains every collection commonly used in DSA. 
+System.Linq adds query methods that can make code more concise, though should use them judiciously in performance-sensitive code.
