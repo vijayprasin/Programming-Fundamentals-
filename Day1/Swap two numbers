@@ -1,0 +1,19 @@
+Swap Two Integers
+=================
+Given two numbers a and b, swap their values and return the result as a two-element array [b, a].
+
+In other words, the value that started in a should appear in the second position, and the value that started in b should appear in the first position.
+
+CODE:
+=====
+
+public class Solution
+{
+  public int [] swap (int a,int b)
+  {
+    int temp = a;
+    a = b;
+    b = temp;
+    return new int[] {a,b};
+  }
+}
